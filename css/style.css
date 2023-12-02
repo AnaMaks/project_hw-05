@@ -1,0 +1,190 @@
+@import url("reset.css");
+
+.container {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 10px;
+}
+
+.body {
+  margin: 10px;
+}
+
+.card {
+  padding: 40px 20px;
+}
+
+h1 {
+  color: rgb(14, 14, 14);
+  font-size: 42px;
+  font-weight: 900;
+  padding: 40px 50px 20px;
+}
+
+h2 {
+  color: rgb(27, 27, 27);
+  font-size: 38px;
+  font-weight: 900;
+  padding: 20px 20px 15px;
+}
+
+h3 {
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+  padding: 20px;
+}
+
+.title-desc {
+  color: rgb(88, 88, 88);
+  font-size: 22px;
+  padding: 20px 40px;
+}
+
+img {
+  width: 700px;
+  margin: 30px;
+}
+
+.card-desc {
+  color: rgb(83, 83, 83);
+  font-size: 22px;
+  padding: 10px;
+}
+
+.header-links {
+  color: rgb(0, 4, 255);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+div > p {
+  line-height: 1.25;
+  padding: 20px;
+}
+
+.table-title {
+  color: rgb(19, 19, 19);
+  font-size: 28px;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.table-body {
+  width: 900px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 2px double rgb(0, 0, 0);
+}
+
+td {
+  background-color: #5c8f23;
+}
+
+.grey {
+  background-color: rgb(143, 143, 143);
+}
+
+.green {
+  background-color: rgb(6, 71, 26);
+}
+
+.brightgreen {
+  background-color: rgb(50, 207, 29);
+}
+
+.yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* Blocks */
+
+.hidden {
+  display: none;
+}
+.block-container {
+  text-align: start;
+  margin: 50px 0;
+}
+.block-parent {
+  font-size: 0;
+  outline: 1px solid red;
+}
+.block-parent > div {
+  display: inline-block;
+  font-size: 20px;
+  outline: 1px solid red;
+}
+.block-blue {
+  background-color: aqua;
+}
+.block-blue > div {
+  width: 400px;
+  height: 400px;
+}
+.block-green {
+  background-color: greenyellow;
+}
+.block-green-first {
+  display: inline-block;
+  width: 800px;
+}
+.block-green-first > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.block-green-second {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+.block-green-second > div {
+  height: 133.33px;
+  outline: 1px solid red;
+}
+.block-orange {
+  background-color: orange;
+}
+.block-orange-first {
+  width: 400px;
+  height: 400px;
+}
+.block-orange-second {
+  display: inline-block;
+  width: 800px;
+  vertical-align: top;
+}
+.block-orange-second > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.block-orange-second > div > div {
+  outline: 1px solid red;
+}
+.block-orange-third {
+  font-size: 0;
+}
+.block-orange-third > div {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  height: 200px;
+}
+.block-orange-third > div > div {
+  height: 100px;
+  outline: 1px solid red;
+}
